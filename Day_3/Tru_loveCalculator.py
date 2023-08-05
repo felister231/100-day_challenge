@@ -1,3 +1,4 @@
+# love calculator 
 print("Welcome to the love calculator")
 my_name = input("What is your name?\n")
 their_name = input("What is their name\n")
