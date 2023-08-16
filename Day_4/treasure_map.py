@@ -13,7 +13,7 @@ horizontal = int(position[1]) - 1  # Adjusting for 0-based indexing
 
 if 0 <= vertical < len(map) and 0 <= horizontal < len(map[0]):
     selected_row = map[vertical]
-    selected_row[horizontal] = "X"
+    selected_row[horizontal] = "😡😡"
     print(f"Treasure placed at {position}!")
     print(f"{row1}\n{row2}\n{row3}\n")
 else:
