@@ -6,8 +6,8 @@ import random
 
 # you can also get the sme using choice function
 get_names = input("Enter the names of your friends separated by a comma").split(",")
-who_pays = random.choice(get_names)
-print(f"{who_pays} is the one going to pay today. Sorry!")
+print(f"{random.choice(get_names)} will pay the bill. Sorry!\n I promise next time it will be someone esle")
+      #print(f"{who_pays} is the one going to pay today. Sorry!")
 
 
 
